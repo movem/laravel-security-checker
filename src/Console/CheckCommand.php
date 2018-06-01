@@ -17,7 +17,7 @@ class CheckCommand extends Command
         parent::__construct();
     }
 
-    public function handler()
+    public function handle()
     {
         $checker = new SecurityChecker();
 
