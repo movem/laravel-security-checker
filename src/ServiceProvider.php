@@ -18,8 +18,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app['command.security-checker.check'] = $this->app->share(
-            function ($app) {
+        $this->app->singleton('command.security-checker.check', function ($app) {
                 return new Console\CheckCommand();
             }
         );
