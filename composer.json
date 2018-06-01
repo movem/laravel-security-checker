@@ -1,13 +1,20 @@
 {
-    "name": "lowerends/laravel-security-checker",
+  "name": "movem/laravel-security-checker",
     "description": "The Symfony Security Advisories Checker for Laravel",
     "keywords": ["laravel", "symfony", "security", "advisories", "checker", "cli"],
     "license": "MIT",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.1.*",
-        "sensiolabs/security-checker": "3.x"
+      "php": ">=7.1.3",
+      "illuminate/support": "6.3.*",
+      "sensiolabs/security-checker": "^4.1"
     },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "movem\\SecurityChecker\\ServiceProvider"
+      ]
+    }
+  },
     "autoload": {
         "psr-4": {
             "Lowerends\\SecurityChecker\\": "src/"

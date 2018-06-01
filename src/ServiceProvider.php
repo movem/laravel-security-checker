@@ -1,4 +1,6 @@
-<?php namespace Lowerends\SecurityChecker;
+<?php
+
+namespace movem\SecurityChecker;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

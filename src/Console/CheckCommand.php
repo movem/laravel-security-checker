@@ -1,4 +1,6 @@
-<?php namespace Lowerends\SecurityChecker\Console;
+<?php
+
+namespace movem\SecurityChecker\Console;
 
 use Illuminate\Console\Command;
 use SensioLabs\Security\SecurityChecker;
