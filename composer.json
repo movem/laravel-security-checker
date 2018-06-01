@@ -1,5 +1,5 @@
 {
-  "name": "movem/laravel-security-checker",
+  "name": "Movem/laravel-security-checker",
     "description": "The Symfony Security Advisories Checker for Laravel",
     "keywords": ["laravel", "symfony", "security", "advisories", "checker", "cli"],
     "license": "MIT",
@@ -11,13 +11,13 @@
   "extra": {
     "laravel": {
       "providers": [
-        "movem\\SecurityChecker\\ServiceProvider"
+        "Movem\\SecurityChecker\\ServiceProvider"
       ]
     }
   },
     "autoload": {
         "psr-4": {
-            "Lowerends\\SecurityChecker\\": "src/"
+          "Movem\\SecurityChecker\\": "src/"
         }
     },
     "minimum-stability": "dev"

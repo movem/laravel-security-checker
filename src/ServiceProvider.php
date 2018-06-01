@@ -1,6 +1,6 @@
 <?php
 
-namespace movem\SecurityChecker;
+namespace Movem\SecurityChecker;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
